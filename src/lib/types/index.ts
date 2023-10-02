@@ -10,3 +10,5 @@ export type Gap =
       rowGap?: Size;
     }
   | { gap?: Size };
+
+export type Direction = 'row' | 'column';
